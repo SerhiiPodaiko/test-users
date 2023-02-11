@@ -1,0 +1,18 @@
+.user-albums {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px #9457eb;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 10px;
+
+    span {
+      margin-bottom: 3px;
+    }
+  }
+}

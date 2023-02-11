@@ -1,0 +1,38 @@
+.user-posts {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9457eb;
+  }
+
+  a {
+    border: 1px solid #9457eb;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: .3s ease;
+
+    &:hover {
+      color: #fff;
+      background: #9457eb;
+    }
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px #9457eb;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 10px;
+
+    span {
+      margin-bottom: 3px;
+    }
+  }
+}

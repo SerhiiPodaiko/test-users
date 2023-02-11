@@ -1,0 +1,21 @@
+@import "reset";
+
+$default-color: #333;
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: $default-color;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  margin: 10px 0;
+}

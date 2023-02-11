@@ -1,0 +1,39 @@
+.btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid;
+  background: transparent;
+  transition: .3s ease;
+
+  &.default {
+    border-color: #9457eb;
+    color: #9457eb;
+
+    &:hover {
+      background: #9457eb;
+      color: #fff;
+    }
+  }
+
+  &.success {
+    border-color: #48EB94;
+    color: #48EB94;
+
+    &:hover {
+      background: #48EB94;
+      color: #fff;
+    }
+  }
+
+  &.error {
+    border-color: indianred;
+    color: indianred;
+
+    &:hover {
+      background: indianred;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.not-found {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &-btn {
+    padding: 10px 15px;
+    background: #9457EB;
+    border: 1.5px solid #9457EB;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: .3s ease;
+    border-radius: 8px;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      background: transparent;
+      color: #9457EB;
+    }
+  }
+
+  &-img {
+    max-width: 100%;
+  }
+}

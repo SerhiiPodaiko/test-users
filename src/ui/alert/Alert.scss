@@ -1,0 +1,16 @@
+.alert {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 20px;
+
+  &.success {
+    background: lightgreen;
+  }
+
+  &.error {
+    background: indianred;
+    color: #fff;
+  }
+}

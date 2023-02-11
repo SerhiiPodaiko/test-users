@@ -1,0 +1,26 @@
+.user-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px #9457EB;
+  border-radius: 10px;
+  transition: .3s ease;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #9457EB;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-wrap {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
