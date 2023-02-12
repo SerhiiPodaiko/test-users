@@ -1,5 +1,6 @@
 import {useEffect} from "react"
 import {useDispatch, useSelector} from "react-redux"
+import Proptypes from "prop-types"
 import "./UserAlbums.scss"
 import Preloader from "../../ui/preloader/Peloader"
 import Alert from "../../ui/alert/Alert"
@@ -29,3 +30,6 @@ const UserAlbums = ({userId}) => {
 
 export default UserAlbums
 
+UserAlbums.propTypes = {
+    userId: Proptypes.number.isRequired
+}

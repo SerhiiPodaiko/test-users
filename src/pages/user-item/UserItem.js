@@ -1,5 +1,6 @@
 import {useState} from "react"
 import {useNavigate} from "react-router-dom"
+import Proptypes from "prop-types"
 import "./UserItem.scss"
 import Button from "../../ui/button/Button"
 import Modal from "../../ui/modal/Modal"
@@ -42,4 +43,6 @@ const UserItem = ({user}) => {
 
 export default UserItem
 
-
+UserItem.propTypes = {
+    user: Proptypes.object.isRequired
+}

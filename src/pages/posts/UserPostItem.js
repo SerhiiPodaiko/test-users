@@ -1,3 +1,5 @@
+import Proptypes from "prop-types"
+
 const UserPostsItem = ({post}) => {
     return (
         <div className="user-posts-item">
@@ -8,3 +10,7 @@ const UserPostsItem = ({post}) => {
 }
 
 export default UserPostsItem
+
+UserPostsItem.propTypes = {
+    post: Proptypes.object.isRequired
+}
